@@ -1,37 +1,31 @@
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>DesktopManagerCustom</h1>
   
-  <p>
-    An awesome software that organizes your folders! 
-  </p>
+  <h1>Brain Tumor Segmentation using 3D-Unet</h1>
   
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/AbduzZami/DesktopManagerCustom/graphs/contributors">
+  <a href="https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/AbduzZami/DesktopManagerCustom" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/AbduzZami/Brats2020-Segmentation-using-3DUnet" alt="last update" />
   </a>
-  <a href="https://github.com/AbduzZami/DesktopManagerCustom/network/members">
-    <img src="https://img.shields.io/github/forks/AbduzZami/DesktopManagerCustom" alt="forks" />
+  <a href="https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/network/members">
+    <img src="https://img.shields.io/github/forks/AbduzZami/Brats2020-Segmentation-using-3DUnet" alt="forks" />
   </a>
-  <a href="https://github.com/AbduzZami/DesktopManagerCustom/stargazers">
-    <img src="https://img.shields.io/github/stars/AbduzZami/DesktopManagerCustom" alt="stars" />
+  <a href="https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/stargazers">
+    <img src="https://img.shields.io/github/stars/AbduzZami/Brats2020-Segmentation-using-3DUnet" alt="stars" />
   </a>
-  <a href="https://github.com/AbduzZami/DesktopManagerCustom/issues/">
-    <img src="https://img.shields.io/github/issues/AbduzZami/DesktopManagerCustom" alt="open issues" />
+  <a href="https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/issues/">
+    <img src="https://img.shields.io/github/issues/AbduzZami/Brats2020-Segmentation-using-3DUnet" alt="open issues" />
   </a>
-  <a href="https://github.com/AbduzZami/DesktopManagerCustom/LICENSE">
-    <img src="https://img.shields.io/github/license/AbduzZami/DesktopManagerCustom" alt="license" />
+  <a href="https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/LICENSE">
+    <img src="https://img.shields.io/github/license/AbduzZami/Brats2020-Segmentation-using-3DUnet" alt="license" />
   </a>
 </p>
-
-[![Download](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeN0OyCYeygT1ew7mMVVQIX1T6WLPy3nv1MQj_tfLCrYU4Y5UsrDFa-G8XDIIQv_oQCWU&usqp=CAU)](https://github.com/AbduzZami/DesktopManagerCustom/releases/download/desktopmanager/Desktop.Manager.exe)
-   
+ 
    
 
 </div>
@@ -45,31 +39,28 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#introduction">Introduction</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Objectives</a>
+      </li>
+    <li><a href="#usage">Functions</a></li>
+    <li><a href="#contributors">Language & Tools</a></li>
+    <li><a href="#contributing">Justification for Using These Tools</a></li>
+    <li><a href="#contributing">Methodology</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+          <li><a href="#prerequisites">Prerequisites</a></li>
+          <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributors">Contributions</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#faq">FAQ</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#faq">Future Work</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Introduction
 
 ![desktophome](https://user-images.githubusercontent.com/69592754/191519325-5182ae09-e8ac-4741-9f42-8abe8425d410.png)
 
