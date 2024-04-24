@@ -139,12 +139,3 @@ Contributions are what make the open source community such an amazing place to l
 For my project, I utilized a variety of tools to facilitate the implementation and analysis of my deep learning model for medical image segmentation. Firstly, I employed the Nilearn library for its functionality in handling and visualizing neuroimaging data, particularly NIfTI files. This allowed seamless manipulation and exploration of the MRI data crucial for my project. Additionally, I leveraged the Segmentation Models 3D and Classification Models 3D libraries to access pre-built architectures and utilities tailored for 3D medical image segmentation and classification tasks. These libraries provided efficient implementations of state-of-the-art neural network architectures, streamlining the development process of my deep learning model. Visualkeras was another invaluable tool utilized for visualizing the architecture of my neural network models, aiding in understanding the model's structure and facilitating communication of the model design. Moreover, standard libraries such as NumPy, scikit-learn, and Matplotlib were employed for data preprocessing, model evaluation, and result visualization, ensuring robustness and interpretability of the project outcomes. Overall, these tools collectively enabled the seamless development, evaluation, and interpretation of my deep learning-based medical image segmentation project.
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the GPL 3.0 License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-## Contact
-
-Mail to [Abduz Zami](mailto:abduz.zami@gmail.com?subject=[GitHub]%20Desktop%20Manager%20Custom)
