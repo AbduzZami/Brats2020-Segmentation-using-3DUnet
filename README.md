@@ -66,7 +66,9 @@ BraTS 2020 focuses on brain tumor segmentation in MRI scans, evaluating methods 
 
 ### Objectives
 
-Only JavaFX is used for this software.
+1. Creating a UNET architecture that can generate segmented 3D mask images containing 3 types of annotations i.e. enhancing tumor, peritumoral edema, and tumor core.
+2. Enhancing Dice Coefficient, IoU score, precision, recall and F1-score.
+3. Surpass related works on it.
 
 
 <!-- GETTING STARTED -->
