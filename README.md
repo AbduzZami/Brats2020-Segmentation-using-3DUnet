@@ -45,7 +45,7 @@
       <a href="#getting-started">Objectives</a>
       </li>
     <li><a href="#usage">Functions</a></li>
-    <li><a href="#contributors">Language & Tools</a></li>
+    <li><a href="#tools">Language & Tools</a></li>
     <li><a href="#contributing">Justification for Using These Tools</a></li>
     <li><a href="#contributing">Methodology</a>
       <ul>
@@ -62,12 +62,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Introduction
 
-![desktophome](https://user-images.githubusercontent.com/69592754/191519325-5182ae09-e8ac-4741-9f42-8abe8425d410.png)
+BraTS 2020 focuses on brain tumor segmentation in MRI scans, evaluating methods for glioma segmentation, patient survival prediction, progression status assessment, and segmentation uncertainty estimation. Data include multi-institutional MRI scans with manual tumor segmentations and clinical information. Scans cover native, post-contrast, T2-weighted, and T2-FLAIR volumes. Annotations include enhancing tumor, peritumoral edema, and tumor core. My job was to automate the segmentation process by using U-NET.
 
-Desktop Manager will organize all the files in the desktop folder. We often download or store files on the desktop for quick access. But we do not delete or organize them later. Desktop Manager will delete empty folders and organize files according to their types. So our desktop will look clean. You can also organize other folders but make sure you don't have any program files there.
-
-
-### Built With
+### Objectives
 
 Only JavaFX is used for this software.
 
@@ -130,15 +127,9 @@ Contributions are what make the open source community such an amazing place to l
 
 
 <!-- FAQ -->
-## FAQ
+## Tools
 
-- Does it delete empty folder?
-
-  + Yes it deletes empty folder.
-
-- Where it moves the files?
-
-  + It moves the files to the "DesktopManager" folder.
+For my project, I utilized a variety of tools to facilitate the implementation and analysis of my deep learning model for medical image segmentation. Firstly, I employed the Nilearn library for its functionality in handling and visualizing neuroimaging data, particularly NIfTI files. This allowed seamless manipulation and exploration of the MRI data crucial for my project. Additionally, I leveraged the Segmentation Models 3D and Classification Models 3D libraries to access pre-built architectures and utilities tailored for 3D medical image segmentation and classification tasks. These libraries provided efficient implementations of state-of-the-art neural network architectures, streamlining the development process of my deep learning model. Visualkeras was another invaluable tool utilized for visualizing the architecture of my neural network models, aiding in understanding the model's structure and facilitating communication of the model design. Moreover, standard libraries such as NumPy, scikit-learn, and Matplotlib were employed for data preprocessing, model evaluation, and result visualization, ensuring robustness and interpretability of the project outcomes. Overall, these tools collectively enabled the seamless development, evaluation, and interpretation of my deep learning-based medical image segmentation project.
 
 
 <!-- LICENSE -->
