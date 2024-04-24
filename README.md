@@ -42,18 +42,20 @@
       <a href="#introduction">Introduction</a>
     </li>
     <li>
-      <a href="#getting-started">Objectives</a>
+      <a href="#objectives">Objectives</a>
       </li>
     <li><a href="#usage">Functions</a></li>
-    <li><a href="#tools">Language & Tools</a></li>
-    <li><a href="#contributing">Justification for Using These Tools</a></li>
-    <li><a href="#contributing">Methodology</a>
+    <li><a href="#language-and-tools-with-justifications">Language & Tools</a></li>
+    <li><a href="#methodology">Methodology</a>
       <ul>
-          <li><a href="#prerequisites">Prerequisites</a></li>
-          <li><a href="#installation">Installation</a></li>
+          <li><a href="#dataset">Prerequisites</a></li>
+          <li><a href="#preprocessing">Installation</a></li>
+          <li><a href="#modelcreation">Installation</a></li>
+          <li><a href="#training-and-evaluation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#faq">Future Work</a></li>
+    <li><a href="#scores">Scores</a></li>
+    <li><a href="#future-works">Future Work</a></li>
   </ol>
 </details>
 
@@ -64,23 +66,26 @@
 
 BraTS 2020 focuses on brain tumor segmentation in MRI scans, evaluating methods for glioma segmentation, patient survival prediction, progression status assessment, and segmentation uncertainty estimation. Data include multi-institutional MRI scans with manual tumor segmentations and clinical information. Scans cover native, post-contrast, T2-weighted, and T2-FLAIR volumes. Annotations include enhancing tumor, peritumoral edema, and tumor core. My job was to automate the segmentation process by using U-NET.
 
-### Objectives
+<!-- Objectives -->
+## Objectives
 
 1. Creating a UNET architecture that can generate segmented 3D mask images containing 3 types of annotations i.e. enhancing tumor, peritumoral edema, and tumor core.
-2. Enhancing Dice Coefficient, IoU score, precision, recall and F1-score.
+2. Enhancing Dice Coefficient, IoU score, precision, recall, and F1-score.
 3. Surpass related works on it.
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- Functions -->
+## Functions
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+From any 3D MRI of the brain, this trained model can generate segmentation containing 3 types of annotations i.e. enhancing tumor, peritumoral edema, and tumor core.
 
-### Prerequisites
+## Language and Tools with Justifications
 
-You will need following things to run this software on your computer.
-* jre <a href="https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB" target="_blank">(Download and set up jre)</a>
+- Python: Programming language used for the project.
+- Nilearn: Library utilized for handling and visualizing neuroimaging data, especially NIfTI files.
+- Segmentation Models 3D: Libraries accessed for pre-built architectures and utilities tailored for 3D medical image segmentation and classification tasks.
+- Visualkeras: Tool employed for visualizing the architecture of neural network models.
+- NumPy, scikit-learn, Matplotlib: Standard libraries used for data preprocessing, model evaluation, and result visualization.
 
 ### Installation
 
