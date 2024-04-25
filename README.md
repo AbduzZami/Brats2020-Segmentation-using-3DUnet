@@ -48,10 +48,10 @@
     <li><a href="#language-and-tools-with-justifications">Language & Tools</a></li>
     <li><a href="#methodology">Methodology</a>
       <ul>
-          <li><a href="#dataset">Prerequisites</a></li>
-          <li><a href="#preprocessing">Installation</a></li>
-          <li><a href="#modelcreation">Installation</a></li>
-          <li><a href="#training-and-evaluation">Installation</a></li>
+          <li><a href="#dataset">Dataset</a></li>
+          <li><a href="#preprocessing">Preprocessing</a></li>
+          <li><a href="#modelcreation">Model Creation</a></li>
+          <li><a href="#training-and-evaluation">Training and Evaluation</a></li>
       </ul>
     </li>
     <li><a href="#scores">Scores</a></li>
@@ -87,7 +87,7 @@ From any 3D MRI of the brain, this trained model can generate segmentation conta
 - Visualkeras: Tool employed for visualizing the architecture of neural network models.
 - NumPy, scikit-learn, Matplotlib: Standard libraries used for data preprocessing, model evaluation, and result visualization.
 
-### Installation
+### Methodology
 
 This software do not need any installation. Just download the application file and run it from anywhere.
 
