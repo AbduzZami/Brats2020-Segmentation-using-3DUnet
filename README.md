@@ -89,7 +89,11 @@ From any 3D MRI of the brain, this trained model can generate segmentation conta
 
 ## Methodology
 
-This software do not need any installation. Just download the application file and run it from anywhere.
+This work has been performed with a publicly available dataset. My methodology includes preprocessing, model creation, and evaluation techniques.
+
+### Dataset
+
+
 
 
 <!-- USAGE EXAMPLES -->
