@@ -93,9 +93,17 @@ This work has been performed with a publicly available dataset. My methodology i
 
 ### Dataset
 
-I have used the BraTS2020 dataset for this work. It has 369 items for training and 125 items for validating. Each item has 5 .nii type files. They contain native, post-contrast, T2-weighted, T2-FLAIR volumes and one segmentation file. Segmentation file contains 3 types of annotations: enhancing tumor, peritumoral edema, and tumor core.
+I have used the BraTS2020 dataset for this work. It has 369 items for training and 125 items for validating. Each item has 5 .nii type files. They contain native, post-contrast, T2-weighted, T2-FLAIR volumes and one segmentation file. Segmentation file contains 3 types of annotations: enhancing tumor, peritumoral edema, and tumor core. Each .nii file has a shape of (240, 240, 155).
 
+### Preprocessing
 
+I needed to preprocesses MRI images from the BraTS dataset, which includes T1, FLAIR, and T1CE modalities, along with corresponding segmentation masks. 
+
+The preprocessing steps include:
+1. Loading MRI images and segmentation masks from NIfTI files.
+2. Normalizing intensity values of each modality using Min-Max scaling.
+3. Converting segmentation masks into one-hot encoded categorical labels.
+4. Cropping images and segmentation masks to a smaller size (128x128x128) to fit into GPU memory.
 
 
 <!-- USAGE EXAMPLES -->
