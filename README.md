@@ -93,6 +93,8 @@ This work has been performed with a publicly available dataset. My methodology i
 
 ### Dataset
 
+I have used the BraTS2020 dataset for this work. It has 369 items for training and 125 items for validating. Each item has 5 .nii type files. They contain native, post-contrast, T2-weighted, T2-FLAIR volumes and one segmentation file. Segmentation file contains 3 types of annotations: enhancing tumor, peritumoral edema, and tumor core.
+
 
 
 
