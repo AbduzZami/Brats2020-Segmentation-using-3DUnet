@@ -87,7 +87,7 @@ From any 3D MRI of the brain, this trained model can generate segmentation conta
 - Visualkeras: Tool employed for visualizing the architecture of neural network models.
 - NumPy, scikit-learn, Matplotlib: Standard libraries used for data preprocessing, model evaluation, and result visualization.
 
-### Methodology
+## Methodology
 
 This software do not need any installation. Just download the application file and run it from anywhere.
 
