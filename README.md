@@ -55,6 +55,9 @@
       </ul>
     </li>
     <li><a href="#scores">Scores</a></li>
+    <li><a href="#contributors">Contributors</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -149,4 +152,4 @@ Contributions are what make the open source community such an amazing place to l
 <!-- LICENSE -->
 ## License
 
-Distributed under the GPL 3.0 License. See `LICENSE` for more information.
+Distributed under the Apache License 2.0 License. See `LICENSE` for more information.
