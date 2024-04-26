@@ -129,3 +129,24 @@ Below are the scores for different labels.
 | Label 4   | 24         | 24        |
 
 
+<!-- Contributors -->
+## Contributors
+
+<a href="https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AbduzZami/Brats2020-Segmentation-using-3DUnet" />
+</a>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+<a href="https://docs.github.com/en/get-started/quickstart/contributing-to-projects" target="_blank">See how to contribute to a project</a>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GPL 3.0 License. See `LICENSE` for more information.
