@@ -103,7 +103,7 @@ The preprocessing steps include:
 1. Loading MRI images and segmentation masks from NIfTI files.
 2. Normalizing intensity values of each modality using Min-Max scaling.
 3. Converting segmentation masks into one-hot encoded categorical labels.
-4. Cropping images and segmentation masks to a smaller size (128x128x128) to fit into GPU memory.
+4. Cropping images and segmentation masks to a smaller size (128x128x128xF) to fit into GPU memory.
 
 ### Model Creation
 
