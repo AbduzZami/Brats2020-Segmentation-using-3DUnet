@@ -55,7 +55,6 @@
       </ul>
     </li>
     <li><a href="#scores">Scores</a></li>
-    <li><a href="#future-works">Future Work</a></li>
   </ol>
 </details>
 
@@ -116,6 +115,8 @@ To reduce the required time for training and evaluating, I just worked on the Tr
 I trained the model for 50 epochs with a batch size of 1.
 
 For evaluation metrics I used Dice Coefficient, Intersection over Union, Accuracy, Precison, Recall, and F1-score. But only the Dice Coefficient and Intersection over Union is meaningful here.
+
+## Scores
 
 Below are the scores for different labels.
 
