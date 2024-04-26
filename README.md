@@ -105,6 +105,11 @@ The preprocessing steps include:
 3. Converting segmentation masks into one-hot encoded categorical labels.
 4. Cropping images and segmentation masks to a smaller size (128x128x128) to fit into GPU memory.
 
+### Model Creation
+
+![Unet 3D Brats](https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/assets/69592754/1a50cad9-952c-4517-95ec-0ef0e8f5a9c1)
+
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
