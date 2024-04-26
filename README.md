@@ -123,7 +123,7 @@ For evaluation metrics I used Dice Coefficient, Intersection over Union, Accurac
 
 Below are the scores for different labels.
 
-|           | Dice Score | IoU Score |
+| Label     | Dice Score | IoU Score |
 |-----------|------------|-----------|
 | Label 0   | 99         | 99        |
 | Label 1   | 80         | 89        |
