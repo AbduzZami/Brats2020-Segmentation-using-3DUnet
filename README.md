@@ -134,11 +134,10 @@ Below are the scores for different labels.
 
 | Label     | Dice Score | IoU Score |
 |-----------|------------|-----------|
-| Label 0   | 99         | 99        |
-| Label 1   | 80         | 89        |
-| Label 2   | 60         | 55        |
-| Label 3   | 24         | 24        |
-| Label 4   | 24         | 24        |
+| Label 0   | 98.97         | 98.05        |
+| Label 1   | 55.20         | 44.59        |
+| Label 2   | 62.26         | 49.98        |
+| Label 3   | 62.17         | 51.94        |
 
 
 <!-- Contributors -->
