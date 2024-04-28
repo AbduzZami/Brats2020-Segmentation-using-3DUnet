@@ -51,7 +51,7 @@
           <li><a href="#dataset">Dataset</a></li>
           <li><a href="#preprocessing">Preprocessing</a></li>
           <li><a href="#modelcreation">Model Creation</a></li>
-          <li><a href="#training-and-evaluation">Training and Evaluation</a></li>
+          <li><a href="#experimental-set-up">Experimental Set Up</a></li>
       </ul>
     </li>
     <li><a href="#scores">Scores</a></li>
@@ -111,7 +111,7 @@ The preprocessing steps include:
 
 ![Unet 3D Brats](https://github.com/AbduzZami/Brats2020-Segmentation-using-3DUnet/assets/69592754/1a50cad9-952c-4517-95ec-0ef0e8f5a9c1)
 
-### Training and Evaluation
+### Experimental Set Up
 
 To reduce the required time for training and evaluating, I just worked on the Training Folder of the above dataset. I split the Training Folder into train(80%) and test(20%). I further split the train set into train(80%) and validation(20%).
 
