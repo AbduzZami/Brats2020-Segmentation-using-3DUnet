@@ -99,13 +99,16 @@ I have used the BraTS2020 dataset for this work. It has 369 items for training a
 
 ### Preprocessing
 
-I needed to preprocesses MRI images from the BraTS dataset, which includes T1, FLAIR, and T1CE modalities, along with corresponding segmentation masks. 
+I needed to preprocesses MRI images from the BraTS dataset, which includes T1, T2, FLAIR, and T1CE modalities, along with corresponding segmentation masks. 
 
 The preprocessing steps include:
 1. Loading MRI images and segmentation masks from NIfTI files.
-2. Normalizing intensity values of each modality using Min-Max scaling.
-3. Converting segmentation masks into one-hot encoded categorical labels.
-4. Cropping images and segmentation masks to a smaller size (128x128x128xF) to fit into GPU memory.
+2. Removed T2 image.
+3. Normalizing intensity values of each modality using Min-Max scaling.
+4. Converting segmentation masks into one-hot encoded categorical labels.
+5. Segmentation image had four unique pixel values 0 (Nothing),1(Non-enhancing tumor core), 2(Edema), 3(Not Specified), 4(Enhancing tumor). 
+Label 3 was replaced by label 4.
+6. Cropping images and segmentation masks to a smaller size (128x128x128xF) to fit into GPU memory.
 
 ### Model Creation
 
