@@ -108,8 +108,7 @@ The preprocessing steps include:
 4. Converting segmentation masks into one-hot encoded categorical labels.
 5. Segmentation image had four unique pixel values 0 (Nothing),1(Non-enhancing tumor core), 2(Edema), 3(Not Specified), 4(Enhancing tumor). 
 Label 3 was replaced by label 4.
-6. Early Stopping was applied with patience 5 on validation loss.
-7. Cropping images and segmentation masks to a smaller size (128x128x128xF) to fit into GPU memory.
+6. Cropping images and segmentation masks to a smaller size (128x128x128xF) to fit into GPU memory.
 
 ### Model Creation
 
@@ -126,6 +125,8 @@ Loss function was totalloss=diceloss+(1*focalloss).
 Learning rate was 0.001.
 
 Optimizer was Adam.
+
+Early Stopping was applied with patience 5 on validation loss.
 
 For evaluation metrics I used Dice Coefficient, Intersection over Union, Accuracy, Precison, Recall, and F1-score. But only the Dice Coefficient and Intersection over Union is meaningful here.
 
