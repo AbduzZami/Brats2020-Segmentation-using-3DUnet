@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Introduction
 
-BraTS 2020 focuses on brain tumor segmentation in MRI scans, evaluating methods for glioma segmentation, patient survival prediction, progression status assessment, and segmentation uncertainty estimation. Data include multi-institutional MRI scans with manual tumor segmentations and clinical information. Scans cover native, post-contrast, T2-weighted, and T2-FLAIR volumes. Annotations include enhancing tumor, peritumoral edema, and tumor core. My job was to automate the segmentation process by using U-NET.
+BraTS 2020 focuses on brain tumor segmentation in MRI scans, evaluating methods for glioma segmentation, patient survival prediction, progression status assessment, and segmentation uncertainty estimation. Data include multi-institutional MRI scans with manual tumor segmentations and clinical information. Scans cover native (T1), post-contrast (T1CE), T2-weighted, and T2-FLAIR volumes. Annotations include enhancing tumor, peritumoral edema, and tumor core. My job was to automate the segmentation process by using U-NET.
 
 <!-- Objectives -->
 ## Objectives
