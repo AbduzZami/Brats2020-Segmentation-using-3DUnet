@@ -108,7 +108,7 @@ The preprocessing steps include:
 4. Converting segmentation masks into one-hot encoded categorical labels.
 5. Segmentation image had four unique pixel values 0 (Nothing),1(Non-enhancing tumor core), 2(Edema), 3(Not Specified), 4(Enhancing tumor). 
 Label 3 was replaced by label 4.
-6. Cropping images and segmentation masks to a smaller size (128x128x128xF) to fit into GPU memory.
+6. Cropping images and segmentation masks to a smaller size (128x128x128xF) to fit into GPU memory. Cropped Image = Original Image [56:184,56:184,13:141]
 
 ### Model Creation
 
