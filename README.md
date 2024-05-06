@@ -66,8 +66,8 @@
 <!-- ABOUT THE PROJECT -->
 ## Introduction
 
-A brain tumor is an abnormal growth of cells in the brain
-MRI scans are best for detecting brain tumors
+A brain tumor is an abnormal growth of cells in the brain cells.
+MRI scans are best for detecting brain tumors.
 An automated brain tumor segmentation will help to open new era in the treatment of brain tumor.
 
 <!-- Objectives -->
